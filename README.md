@@ -45,5 +45,49 @@ Navigate to your home directory and create a directory to house all of your repo
 
 `cd test`   <- Move to the new dir
 
-Now that you have a home for your repository it's time to log in to GitHub and add one.  Technically you could do this using the API but for simplicity we will create it from your profile in GitHub.  Create a public repository named `test`.  Now lets set it up from the command line.  
+Now that you have a home for your repository it's time to log in to GitHub and add one.  Technically you could do this using the API but for simplicity we will create it from your profile in GitHub.  Create a public repository named `test`.  On the next screen you should see a "Quick setup" section, save the SSH link to this new repo.  It will look something like this: `git@github.com:username/test.git`.  Now lets set it up from the command line, you should be in your `test` dir.
+
+`$ git init`  <- Creates an empty Git repository
+
+We need to add a new remote so we can make pull/push requests. We will use the `git remote add` command and pass two arguments with it, the remote name (typically `origin`) and the SSH link you saved from when you made the repo.  The command should look like this:
+
+`$ git remote add origin git@github.com:username/test.git`
+
+You can see if it worked by running:
+
+`$ git remote -v` <- Verbose output showing the remote url after name
+
+Output Should look like this:
+
+```origin	git@github.com:username/test.git (fetch)
+
+origin	git@github.com:username/test.git (push)```
+
+Now we need content to push to the repo.  We will start with a simple `README.md` file.  Use your favorite text editor to create the file (vim, vi, nano, etc)
+
+`$ nano README.md`
+
+Now that you made the file lets add some content, you can add anything you want or just copy and paste the following:
+
+```
+# Hello World
+
+Testing my first repository
+
+## GitHub uses markdown to format text.
+
+You can create a new line by adding a blank line after blocks of text.
+
+Like this.
+
+You can also add `code` with back ticks and blocks with triple back ticks.
+
+"```"
+Good for quoting large blocks of text.
+
+Blah Blah
+
+Blah
+```
+
 END
