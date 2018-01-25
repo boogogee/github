@@ -59,7 +59,8 @@ You can see if it worked by running:
 
 Output Should look like this:
 
-```origin	git@github.com:username/test.git (fetch)
+```
+origin	git@github.com:username/test.git (fetch)
 
 origin	git@github.com:username/test.git (push)
 ```
