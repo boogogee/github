@@ -130,6 +130,7 @@ Changes to be committed:
 Now we have a file that is being tracked and we have made changes to it.  Lets commit these changes and get ready to push them.
 
 `$ git commit -a`  <-  Commit all changes, you will be prompted to make a brief note of the changes. 
+
 `$ git push origin master` <- Pushes commits made locally to the remote repo.  Uses git push REMOTENAME BRANCHNAME syntax.
 
 Refresh your GitHub page and you should see the readme in all its glory. 
