@@ -26,27 +26,24 @@ Output: ```git version 2.7.4```
 
 Now you need to set the user and the email in the config file.  You can do this with these two commands.
 
-```
-$ git config --global user.name "Your Name"
 
-$ git config --global user.email "youremail@example.com"
-```
+`$ git config --global user.name "Your Name`
+
+`$ git config --global user.email "youremail@example.com"`
 
 ## First Repository
 
 Navigate to your home directory and create a directory to house all of your repos.
 
-```
-cd
+`cd`
 
-mkdir repos
+`mkdir repos`
 
-cd repos
+`cd repos`
 
-mkdir test
+`mkdir test`
 
-cd test
-```
+`cd test`
 
 Now that you have a home for your repository it's time to log in to GitHub and add one.  Technically you could do this using the API but for simplicity we will create it from your profile in GitHub.  Create a public repository named `test`.  Now lets set it up from the command line.  
 END
