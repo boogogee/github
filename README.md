@@ -85,4 +85,54 @@ Like this.
 You can also add `code` with back ticks and blocks with triple back ticks.
 ```
 
+Save your changes to `README.md` and exit your editor.  Next lets check the status of the repo.
+
+`$git status`
+
+Output:
+
+```
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+We can see the `README.md` file is not being tracked so we need to add it now.  We can add everything thats in this dir by running:
+
+`$ git add .` <- Adds everything in the current editor
+
+or
+
+`git add README.md` <- Adds just this file. 
+
+Now running the status command should look like this:
+
+```
+$ git status
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+```
+
+Now we have a file that is being tracked and we have made changes to it.  Lets commit these changes and get ready to push them.
+
+`$ git commit -a`  <-  Commit all changes, you will be prompted to make a brief note of the changes. 
+'$ git push origin master' <- Pushes commits made locally to the remote repo.  Uses `git push  <REMOTENAME> <BRANCHNAME>` syntax.
+
+Refresh your GitHub page and you should see the readme in all its glory. 
+
+  
 END
