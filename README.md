@@ -16,13 +16,13 @@ You can verify that it's installed by running the following;
 
 `$ which git` <- shows the location of the git command
 
-Output: ```/usr/bin/git```
+Output: `/usr/bin/git`
 
 or
 
 `$ git --version` <- shows the version of git installed
 
-Output: ```git version 2.7.4```
+Output: `git version 2.7.4`
 
 Now you need to set the user and the email in the config file.  You can do this with these two commands.
 
@@ -61,7 +61,8 @@ Output Should look like this:
 
 ```origin	git@github.com:username/test.git (fetch)
 
-origin	git@github.com:username/test.git (push)```
+origin	git@github.com:username/test.git (push)
+```
 
 Now we need content to push to the repo.  We will start with a simple `README.md` file.  Use your favorite text editor to create the file (vim, vi, nano, etc)
 
