@@ -1,6 +1,6 @@
-# Git Hub Notes
+# GitHub Quick Start
 
-I needed a place to put all of my notes on how to get started and use GitHub.  I am not a GitHub master by any means, I am writing this to solidify the few things that I know and to learn a lot more.  The object is to do 90% from the command line.  
+I needed a place to put all of my notes on how to get started and use GitHub.  I am not a GitHub master by any means, I am writing this to solidify the few things that I know and to learn a lot more.  I want to provide the commands to run but also explain why you are running them.  The object is to do 90% from the command line.  
 
 ## Prerequisites
 
@@ -27,23 +27,23 @@ Output: ```git version 2.7.4```
 Now you need to set the user and the email in the config file.  You can do this with these two commands.
 
 
-`$ git config --global user.name "Your Name`
+`$ git config --global user.name "Your Name`   <- Sets your name in the config
 
-`$ git config --global user.email "youremail@example.com"`
+`$ git config --global user.email "youremail@example.com"`   <- Sets your default email in the config
 
 ## First Repository
 
 Navigate to your home directory and create a directory to house all of your repos.
 
-`cd`
+`cd`    <- Move to your home dir
 
-`mkdir repos`
+`mkdir repos`  <- Create a dir in your home
 
-`cd repos`
+`cd repos`   <- Move to the new dir
 
-`mkdir test`
+`mkdir test`  <- Create a dir for your first repo
 
-`cd test`
+`cd test`   <- Move to the new dir
 
 Now that you have a home for your repository it's time to log in to GitHub and add one.  Technically you could do this using the API but for simplicity we will create it from your profile in GitHub.  Create a public repository named `test`.  Now lets set it up from the command line.  
 END
