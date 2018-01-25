@@ -43,6 +43,10 @@ mkdir repos
 
 cd repos
 
-touch README.md
+mkdir test
+
+cd test
 ```
+
+Now that you have a home for your repository it's time to log in to GitHub and add one.  Technically you could do this using the API but for simplicity we will create it from your profile in GitHub.  Create a public repository named `test`.  Now lets set it up from the command line.  
 END
