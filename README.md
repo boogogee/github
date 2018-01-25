@@ -70,11 +70,11 @@ Now we need content to push to the repo.  We will start with a simple `README.md
 Now that you made the file lets add some content, you can add anything you want or just copy and paste the following:
 
 ```
-# Hello World
+\# Hello World
 
 Testing my first repository
 
-## GitHub uses markdown to format text.
+\## GitHub uses markdown to format text.
 
 You can create a new line by adding a blank line after blocks of text.
 
@@ -82,7 +82,7 @@ Like this.
 
 You can also add `code` with back ticks and blocks with triple back ticks.
 
-"```"
+\`\`\`
 Good for quoting large blocks of text.
 
 Blah Blah
