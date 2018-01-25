@@ -27,7 +27,7 @@ Output: `git version 2.7.4`
 Now you need to set the user and the email in the config file.  You can do this with these two commands.
 
 
-`$ git config --global user.name "Your Name`   <- Sets your name in the config
+`$ git config --global user.name "Your Name"`   <- Sets your name in the config
 
 `$ git config --global user.email "youremail@example.com"`   <- Sets your default email in the config
 
