@@ -1,6 +1,6 @@
 # GitHub Quick Start
 
-I needed a place to put all of my notes on how to get started and use GitHub.  I am not a GitHub master by any means, I am writing this to solidify the few things that I know and to learn a lot more.  I want to provide the commands to run but also explain why you are running them.  The object is to do 90% from the command line.  
+I am not a GitHub master by any means, I am writing this to solidify the few things that I know and to learn a lot more.  I want to provide the commands to run but also explain why you are running them.  The object is to do 90% from the command line.  
 
 ## Prerequisites
 
