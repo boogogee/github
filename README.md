@@ -4,7 +4,7 @@ I am not a GitHub master by any means, I am writing this to solidify the few thi
 
 ## Prerequisites
 
-Create a GitHub account and log in.  Make sure you use a strong password and enable 2FA.  Also, add your SSH pub key so that we can make pull/push/clone/etc requests using SSH not HTTPS.   
+Create a GitHub account and log in.  Make sure you use a strong password and enable 2FA.  Also, add your SSH pub key if you plan on using git from the cli, so that we can make pull/push/clone/etc requests using SSH not HTTPS.   
 
 ## Getting Started
 
